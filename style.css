@@ -16,12 +16,15 @@ body{
     background-color: #001233;
     color: #CAC0B3;
     font-family: Regular;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header and Navigation Bar for Site*/
 .site-header{
     text-align: center;
     font-size: x-large;
+    margin-bottom: 100px;
 }
 .navbar {
     display: flex;
@@ -74,12 +77,48 @@ body{
     display: block;
 }
 
+/* footer */
+footer {
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+}
+  
+.footer-links li {
+    margin-right: 80px;
+    font-size:larger
+}
+  
+.footer-links a {
+    color: #CAC0B3;
+    text-decoration: none;
+}
+
 /*Introduction*/
+main-content {
+    flex: 1;
+}
 .intro-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    margin-bottom: 100px;
 }
 
 .intro-text {
@@ -109,6 +148,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    margin-bottom: 100px;
 }
 .Week1text{
     flex:  auto;
@@ -116,7 +156,7 @@ body{
     box-sizing: border-box;
 }
 .Week-1 h1{
-    font-size: xx-large;
+    font-size: xxx-large;
     color: #FF595A;
 }
 .Week-1 ul {
@@ -133,6 +173,22 @@ body{
 }
 
 /*Week 2*/
+.Week-2 {
+    margin-bottom: 50px;
+}
+.Week-2 h1{
+    font-size: xxx-large;
+    color: #FF595A;
+    text-align: center;
+}
+.Week-2 img {
+    max-width: 75%;
+    border-radius: 5px;
+    margin: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*Week 3*/
 /*Week 4*/
 /*Week 5*/
